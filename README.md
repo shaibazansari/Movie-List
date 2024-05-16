@@ -59,10 +59,6 @@ This will start the development server using Vite and open the application in yo
 ## Requirements Not Covered
 - Display cast and director information on the movie card.
 - Implement a search bar which searches for the movie based on the search string.
-- Enhance error handling to provide a smoother user experience and handle API request failures or unexpected responses gracefully.
+- Enhance error handling for a smoother user experience, ensuring graceful handling unexpected responses.
 - Add additional filters for sorting and filtering movies.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
