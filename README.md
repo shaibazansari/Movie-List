@@ -13,7 +13,7 @@ git clone https://github.com/shaibazansari/Movie-List.git
  Navigate to the project directory:
 
 ```bash
-cd movie-list
+cd Movie-List
 ```
 
  Install dependencies:
