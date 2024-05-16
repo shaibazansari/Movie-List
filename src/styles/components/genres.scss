@@ -1,0 +1,36 @@
+.genres {
+  padding: 16px;
+  background-color: $header-background-color;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar {
+    height: 8px;
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb:horizontal {
+    background-color: $scrollbar-thumb-color;
+    border-radius: 10px;
+  }
+
+  .genre__item {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-right: 8px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #484848;
+    font-size: 14px;
+    cursor: pointer;
+
+    &:last-child{
+      margin-right: 16px;
+    }
+
+    &.active {
+      background-color: $primary-color;
+    }
+  }
+}
