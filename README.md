@@ -7,7 +7,7 @@ This is a React application for listing movies fetched from The Movie Database (
  Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/movie-list-app.git
+git clone https://github.com/shaibazansari/Movie-List.git
 ```
 
  Navigate to the project directory:
